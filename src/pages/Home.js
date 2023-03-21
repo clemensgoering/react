@@ -1,5 +1,7 @@
 import '../assets/css/App.css';
 import '../assets/css/CustomBoot.css';
+import '../assets/css/Main.css';
+
 import terminal from '../assets/img/terminal.png';
 import Container from 'react-bootstrap/Container';
 
@@ -34,7 +36,7 @@ const Home = () => {
             Check the proper node installation by typing <CodeBlock>npm -v</CodeBlock> into the VS Code Terminal window.
             Terminal can be opened in the top. <br/>
             New section – on the right side, option to open or toggle between existing Terminal sessions.
-            <p><img src={terminal} alt="terminal" /></p>
+            <p><img src={terminal} alt="terminal" className="default-img"/></p>
             
             </p>
             
