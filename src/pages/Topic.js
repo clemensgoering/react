@@ -101,11 +101,19 @@ const Topic = () => {
             </MainPanel>
 
             <MainPanel className="main-panel" title="Further Topics">
+              Starter<br/>
               <ul>
                 <li>Export default and specific (Components)</li>
-                <li>props and child</li>
-                <li>hooks (useState) & useEffect (Suspense and lazy)</li>
+                <li>Props and Child</li>
                 <li>Routing (example useNavigate)</li>
+              </ul>
+              Further Topics<br/>
+              <ul>
+                <li>Hooks (“hook into” React state and lifecycle features from function components) & useEffect (Suspense and lazy)</li>
+                <li> - Impact: Parent changes = reload child components</li>
+                <li> - Solutions: useMemo (Memorize, cached copy = no change, no reload)</li>
+                <li>Libraries (React, ReactDOM)</li>
+                <li>Rendering: JSX - create Element (Memory), Commit: virtual DOM, compare Diff : no change = render</li>
               </ul>
             </MainPanel>
           </>
